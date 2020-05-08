@@ -1,0 +1,899 @@
+SLURM_JOBID=4683016
+SLURM_JOB_NODELIST=cpn-k05-11-02,cpn-k05-12-[01-02],cpn-k05-21-01
+SLURM_NNODES=4
+SLURMTMPDIR=/scratch/4683016
+Working directory = /gpfs/user/kgvansly/Homework3/Problem1
+
+Currently Loaded Modules:
+  1) lmod/5.8   2) StdEnv   3) intel/15.0   4) intel-mpi/5.0.2
+
+
+
+make: `hw3p1weak' is up to date.
+NPROCS=32
+Launch hw3p1 with srun
+Doing Problem 1 with:
+1 Processor(s)
+srun: Warning: can't run 1 processes on 4 nodes, setting nnodes to 1
+Serial Result =3.14184
+Process 0 has the partial result of 3.14184
+Final parallel Result =3.14184 
+
+Threads = 1
+Time for Serial: 0.000744608 s
+Time for Parallel: 0.000860989 s
+
+Speed_up = 0.864829
+
+Serial Fraction: f = inf
+2 Processor(s)
+srun: Warning: can't run 2 processes on 4 nodes, setting nnodes to 2
+Serial Result =3.14172
+Process 1 has the partial result of 1.22848
+Process 0 has the partial result of 1.91324
+Final parallel Result =3.14172 
+
+Threads = 2
+Time for Serial: 0.00148107 s
+Time for Parallel: 0.0101413 s
+
+Speed_up = 0.146043
+
+Serial Fraction: f = 12.6946
+3 Processor(s)
+srun: Warning: can't run 3 processes on 4 nodes, setting nnodes to 3
+Serial Result =Process 1 has the partial result of 1.14507
+Process 2 has the partial result of 0.688391
+3.14168
+Process 0 has the partial result of 1.30822
+Final parallel Result =3.14168 
+
+Threads = 3
+Time for Serial: 0.00222113 s
+Time for Parallel: 0.0104644 s
+
+Speed_up = 0.212257
+
+Serial Fraction: f = 6.5669
+4 Processor(s)
+Serial Result =3.14165
+Process 1 has the partial result of 0.923746
+Process 2 has the partial result of 0.775071
+Process 3 has the partial result of 0.453353
+Process 0 has the partial result of 0.989485
+Final parallel Result =3.14165 
+
+Threads = 4
+Time for Serial: 0.00296082 s
+Time for Parallel: 0.0119748 s
+
+Speed_up = 0.247256
+
+Serial Fraction: f = 5.0592
+5 Processor(s)
+Serial Result =3.14164
+Process 4 has the partial result of 0.327032
+Process 2 has the partial result of 0.690762
+Process 3 has the partial result of 0.567598
+Process 0 has the partial result of 0.794635
+Process 1 has the partial result of 0.761615
+Final parallel Result =3.14164 
+
+Threads = 5
+Time for Serial: 0.00369998 s
+Time for Parallel: 0.0149256 s
+
+Speed_up = 0.247895
+
+Serial Fraction: f = 4.79246
+6 Processor(s)
+Serial Result =3.14163
+Process 4 has the partial result of 0.438251
+Process 5 has the partial result of 0.250109
+Process 2 has the partial result of 0.605013
+Process 0 has the partial result of 0.663568
+Process 1 has the partial result of 0.644648
+Final parallel Result =3.14163 
+
+Threads = 6
+Time for Serial: 0.0044377 s
+Time for Parallel: 0.0160576 s
+
+Speed_up = 0.276362
+
+Serial Fraction: f = 4.14213
+Process 3 has the partial result of 0.540045
+7 Processor(s)
+Serial Result =3.14163
+Process 4 has the partial result of 0.436623
+Process 6 has the partial result of 0.199225
+Process 2 has the partial result of 0.533148
+Process 0 has the partial result of 0.569479
+Process 1 has the partial result of 0.557634
+Final parallel Result =3.14163 
+
+Threads = 7
+Time for Serial: 0.00517823 s
+Time for Parallel: 0.0183103 s
+
+Speed_up = 0.282805
+
+Serial Fraction: f = 3.95868
+Process 5 has the partial result of 0.351395
+Process 3 has the partial result of 0.494124
+8 Processor(s)
+Serial Result =3.14162
+Process 2 has the partial result of 0.47458
+Process 4 has the partial result of 0.412824
+Process 6 has the partial result of 0.289811Process 0 has the partial result of 0.498695
+Process 1 has the partial result of 0.490789
+Final parallel Result =3.14162 
+
+Threads = 8
+Time for Serial: 0.00592435 s
+Time for Parallel: 0.0196095 s
+
+Speed_up = 0.302117
+
+Serial Fraction: f = 3.63997
+Process 5 has the partial result of 0.362241
+Process 7 has the partial result of 0.163521
+Process 3 has the partial result of 0.449163
+
+9 Processor(s)
+Serial Result =Process 5 has the partial result of 0.351338
+Process 7 has the partial result of 0.244301
+Process 3 has the partial result of 0.409168
+3.14162
+Process 0 has the partial result of 0.443528
+Process 1 has the partial result of 0.43799
+Process 2 has the partial result of 0.426696
+Final parallel Result =3.14162 
+
+Threads = 9
+Time for Serial: 0.00665721 s
+Time for Parallel: 0.0240607 s
+
+Speed_up = 0.276684
+
+Serial Fraction: f = 3.94102
+Process 6 has the partial result of 0.306713
+Process 4 has the partial result of 0.384549
+Process 8 has the partial result of 0.137337
+10 Processor(s)
+Serial Result =3.14162
+Process 6 has the partial result of 0.303595
+Process 3 has the partial result of 0.374498
+Process 8 has the partial result of 0.209555
+Process 0 has the partial result of 0.399332
+Process 1 has the partial result of 0.395302
+Process 2 has the partial result of 0.387115
+Final parallel Result =3.14162 
+
+Threads = 10
+Time for Serial: 0.00739626 s
+Time for Parallel: 0.0233303 s
+
+Speed_up = 0.317024
+
+Serial Fraction: f = 3.3937
+Process 7 has the partial result of 0.263998
+Process 4 has the partial result of 0.356978
+Process 9 has the partial result of 0.117463
+Process 5 has the partial result of 0.333781
+11 Processor(s)
+Serial Result =3.14162
+Process 6 has the partial result of 0.293122
+Process 9 has the partial result of 0.182321
+Process 3 has the partial result of 0.344592
+Process 0 has the partial result of 0.363135
+Process 1 has the partial result of 0.360111
+Process 2 has the partial result of 0.353985
+Final parallel Result =3.14162 
+
+Threads = 11
+Time for Serial: 0.00813766 s
+Time for Parallel: 0.0233473 s
+
+Speed_up = 0.348548
+
+Serial Fraction: f = 3.05595
+Process 7 has the partial result of 0.265689
+Process 8 has the partial result of 0.230324
+Process 10 has the partial result of 0.101958
+Process 4 has the partial result of 0.331652
+Process 5 has the partial result of 0.314727
+12 Processor(s)
+Serial Result =3.14161
+Process 6 has the partial result of 0.280036
+Process 9 has the partial result of Process 3 has the partial result of 0.31873
+Process 0 has the partial result of 0.332947
+Process 1 has the partial result of 0.33062
+Process 2 has the partial result of 0.325917
+Final parallel Result =3.14161 
+
+Threads = 12
+Time for Serial: 0.00887498 s
+Time for Parallel: 0.0268392 s
+
+Speed_up = 0.330673
+
+Serial Fraction: f = 3.20815
+Process 7 has the partial result of 0.260007
+Process 8 has the partial result of 0.235019
+Process 4 has the partial result of 0.308888
+Process 10 has the partial result of 0.16051
+Process 5 has the partial result of 0.296124
+Process 11 has the partial result of 0.0895875
+0.203228
+13 Processor(s)
+Serial Result =3.14161
+Process 4 has the partial result of 0.288579
+Process 10 has the partial result of 0.181046Process 7 has the partial result of 0.251184
+Process 0 has the partial result of 0.307389
+Process 1 has the partial result of 0.30556Process 2 has the partial result of 0.301869
+Process 3 has the partial result of 0.296246
+
+Final parallel Result =3.14161 
+
+Threads = 13
+Time for Serial: 0.00962227 s
+Time for Parallel: 0.0268405 s
+
+Speed_up = 0.358499
+
+Serial Fraction: f = 2.93853
+Process 5 has the partial result of 0.278697
+Process 6 has the partial result of 0.266353
+Process 11 has the partial result of 0.142723
+Process 8 has the partial result of 0.232634
+Process 12 has the partial result of 0.0795304
+Process 9 has the partial result of 0.209801
+
+14 Processor(s)
+Serial Result =Process 4 has the partial result of Process 8 has the partial result of 0.226906
+Process 11 has the partial result of 0.162618
+Process 0.270481
+Process 9 has the partial result of 0.209715
+Process 6 has the partial result of 0.252966
+Process 10 has the partial result of 0.188773
+Process 7 has the partial result of 0.241157
+Process 12 has the partial result of 0.127993
+5Process 13 has the partial result of 0.0712235
+ has the partial result of 0.262665
+3.14161
+Process 0 has the partial result of Process 0.285471
+1 has the partial result of 0.284008
+Process 2 has the partial result of 0.281058
+Process 3 has the partial result of 0.276575
+Final parallel Result =3.14161 
+
+Threads = 14
+Time for Serial: 0.0103624 s
+Time for Parallel: 0.028841 s
+
+Speed_up = 0.359295
+
+Serial Fraction: f = 2.9204
+15 Processor(s)
+Serial Result =Process 4 has the partial result of Process 12 has the partial result of 0.147113
+Process 8 has the partial result of 0.219632
+3.14161
+Process 0 has the partial result of 0.266469
+Process 1 has the partial result of 0.26528
+Process 2 has the partial result of 0.262886
+Process 3 has the partial result of 0.259252
+Final parallel Result =3.14161 
+
+Threads = 15
+Time for Serial: 0.0110994 s
+Time for Parallel: 0.0323612 s
+
+Speed_up = 0.342985
+
+Serial Fraction: f = 3.0524
+Process 5 has the partial result of Process 6 has the partial result of Process 13 has the partial result of 0.115631
+Process Process 9 has the partial result of 0.206262
+Process 14 has the partial result of 0.0642682
+0.254327
+Process 10 has the partial result of 0.190303
+0.248033
+Process 11 has the partial result of 0.171026
+0.240262
+7 has the partial result of 0.230865
+16 Processor(s)
+Serial Result =Process 12 has the partial result of Process 8 has the partial result of 0.211737
+Process 4 has the partial result of 3.14161
+Process 0 has the partial result of 0.249837
+Process 1 has the partial result of 0.248858
+Process 2 has the partial result of 0.246887
+Process 3 has the partial result of 0.243902
+Final parallel Result =3.14161 
+
+Threads = 16
+Time for Serial: 0.0118323 s
+Time for Parallel: 0.0282273 s
+
+Speed_up = 0.419181
+
+Serial Fraction: f = 2.47798
+Process 13 has the partial result of 0.133921Process 5 has the partial result of Process 9 has the partial result of 0.201085
+Process 14 has the partial result of 0.105138
+Process Process 10 has the partial result of 0.188542
+Process 15 has the partial result of 0.0583754
+Process 7 has the partial result of Process 11 has the partial result of 0.173697
+0.155888
+0.239863
+
+0.234717
+0.220774
+6 has the partial result of 0.228388
+17 Processor(s)
+Serial Result =Process 13 has the partial result of Process 5 has the partial result of 0.2226Process 9 has the partial result of 0.195067
+3.14161
+Process 0 has the partial result of 0.235158
+Process Process 3 has the partial result of 1 has the partial result of 0.234342
+0.230217
+Process 2 has the partial result of 0.232701
+Process 4 has the partial result of 0.226863
+Final parallel Result =3.14161 
+
+Threads = 17
+Time for Serial: 0.0125727 s
+Time for Parallel: 0.0344042 s
+
+Speed_up = 0.365442
+
+Serial Fraction: f = 2.84494
+Process 10 has the partial result of 0.184979
+Process 6 has the partial result of 0.217373
+Process Process 11 has the partial result of 0.173203
+Process 7 has the partial result of 0.211111
+Process 15 has the partial result of Process 12 has the partial result of 0.159362
+Process 8 has the partial result of 0.203719
+Process 16 has the partial result of 
+0.142853
+0.0961406
+0.0533312
+14 has the partial result of 0.122586
+18 Processor(s)
+Serial Result =3.14161Process 10 has the partial result of Process 5 has the partial result of 0.211561
+Process 14 has the partial result of 0.131534
+
+Process 0 has the partial result of 0.222108
+Process 1 has the partial result of 0.22142
+Process 2 has the partial result of 0.220039
+Process 3 has the partial result of 0.217951
+Process 4 has the partial result of 0.215134
+Final parallel Result =3.14161 
+
+Threads = 18
+Time for Serial: 0.0133214 s
+Time for Parallel: 0.0388831 s
+
+Speed_up = 0.342602
+
+Serial Fraction: f = 3.03171
+Process 6 has the partial result of 0.207192
+Process 7 has the partial result of 0.201975
+Process 15 has the partial result of 0.112764
+Process 8 has the partial result of 0.195843
+Process 16 has the partial result of 0.0883566
+Process 9 has the partial result of 0.188705Process 17 has the partial result of 0.0489737
+
+Process 11 has the partial result of Process Process 13 has the partial result of 0.1468880.180443
+0.170893
+
+12 has the partial result of 0.159823
+19 Processor(s)
+Serial Result =3.14161Process 15 has the partial result of Process 11 has the partial result of Process 5 has the partial result of 0.201485
+
+Process 0 has the partial result of 0.210429
+Process 1 has the partial result of 0.209845
+Process 2 has the partial result of 0.208671
+Process 3 has the partial result of 0.206898
+Process 4 has the partial result of 0.20451
+Final parallel Result =3.14161 
+
+Threads = 19
+Time for Serial: 0.0140566 s
+Time for Parallel: 0.037608 s
+
+Speed_up = 0.373765
+
+Serial Fraction: f = 2.76856
+Process 16 has the partial result of 0.104185
+Process 17 has the partial result of 0.0815687
+Process 18 has the partial result of 0.0451788
+Process 6 has the partial result of 0.197794
+0.121633
+Process 7 has the partial result of 0.193399
+Process 8 has the partial result of 0.188251
+Process Process 9 has the partial result of 0.182284
+Process 10 has the partial result of 0.175416
+0.167537
+Process 13 has the partial result of 0.148072
+12 has the partial result of 0.158493
+Process 14 has the partial result of 0.135955
+20 Processor(s)
+Serial Result =Process 10 has the partial result of Process 5 has the partial result of 0.192266
+Process 3.14161
+Process Process Process Process 3 has the partial result of 1 has the partial result of 2 has the partial result of 0.1994160.19841
+0.196892
+
+0 has the partial result of 0.199917
+Process 4 has the partial result of 0.194849
+Process 6 has the partial result of 0.189118
+Process 16 has the partial result of Process 7 has the partial result of 0.185379
+Process 17 has the partial result of Process 11 has the partial result of Process 8 has the partial result of 0.181011
+Process 18 has the partial result of Process Process 9 has the partial result of 0.175967
+0.112912
+Process 13 has the partial result of 0.147512
+0.0966408
+0.170187
+0.0756073
+0.163593
+15 has the partial result of 12 has the partial result of 0.12631Final parallel Result =3.14161 
+
+Threads = 20
+Time for Serial: 0.0147951 s
+Time for Parallel: 0.0407305 s
+
+Speed_up = 0.363243
+
+Serial Fraction: f = 2.84524
+0.156082
+
+Process 14 has the partial result of 0.137687
+Process 19 has the partial result of 0.0418499
+21 Processor(s)
+Serial Result =3.1416Process 16 has the partial result of Process 6 has the partial result of 0.181101Process 11 has the partial result of 0.159346
+
+Process 0 has the partial result of 0.190404
+Process 1 has the partial result of 0.189972
+Process 2 has the partial result of 0.189103
+Process 3 has the partial result of 0.187793
+Process 4 has the partial result of 0.186032Process 5 has the partial result of 0.183808
+
+Process 17 has the partial result of Process Process 12 has the partial result of 0.153023
+Process 19 has the partial result of 0.0703381Process 13 has the partial result of 0.145863
+Process 7 has the partial result of 0.177892
+0.117751
+Process 14 has the partial result of 0.137735
+Process 8 has the partial result of 0.174152
+0.105184
+Process 15 has the partial result of 0.128456
+Process 9 has the partial result of 0.169846
+
+
+18Process 10 has the partial result of 0.16493 has the partial result of 
+0.0899643
+Process 20 has the partial result of 0.0389106
+Final parallel Result =3.1416 
+
+Threads = 21
+Time for Serial: 0.0155345 s
+Time for Parallel: 0.0434879 s
+
+Speed_up = 0.357214
+
+Serial Fraction: f = 2.88941
+22 Processor(s)
+Serial Result =Process 12 has the partial result of 0.149591
+Process 6 has the partial result of 0.173683
+Process 17 has the partial result of 0.110114
+3.1416
+Process Process Process 2 has the partial result of Process 3 has the partial result of 0 has the partial result of 0.181756
+0.180625
+0.179486
+1 has the partial result of 0.181379
+Process 4 has the partial result of 0.177957
+Process 5 has the partial result of 0.176028
+Process 7 has the partial result of 0.170908
+Process 8 has the partial result of 0.16768
+Process 13 has the partial result of 0.14353
+Process 9 has the partial result of 0.163972
+Process 14 has the partial result of 0.136702
+Process 18 has the partial result of 0.0982974
+Process 10 has the partial result of 0.159751
+Process 15 has the partial result of 0.128986
+Process 19 has the partial result of 0.0840221
+Process 11 has the partial result of 0.154975
+Process 16 has the partial result of 0.120208
+Process 20 has the partial result of 0.0656535
+Process 21 has the partial result of 0.0363
+Final parallel Result =3.1416 
+
+Threads = 22
+Time for Serial: 0.0162771 s
+Time for Parallel: 0.0437465 s
+
+Speed_up = 0.372078
+
+Serial Fraction: f = 2.76797
+23 Processor(s)
+Serial Result =3.1416Process Process 12 has the partial result of 0.145964
+Process 18 has the partial result of 
+Process 0 has the partial result of 0.173858
+Process 1 has the partial result of 0.173529
+Process 2 has the partial result of 0.172869
+Process 3 has the partial result of 0.171873
+Process 4 has the partial result of 0.170537
+Process 5 has the partial result of 0.168853
+Process 8 has the partial result of Process 13 has the partial result of 0.140778
+Process 7 has the partial result of 0.164391
+Process 14 has the partial result of 0.13497
+0.161584
+Process 15 has the partial result of 0.128455
+Process 20 has the partial result of Process 9 has the partial result of 0.158367
+Process 16 has the partial result of 0.12112
+Process 21 has the partial result of 6Process 17 has the partial result of 0.112803
+0.103267
+ has the partial result of 0.0787061
+0.1668080.0614667
+
+Process Process 10 has the partial result of 0.154713
+19 has the partial result of Process 11 has the partial result of 0.150592
+0.0921302
+Process 22 has the partial result of 0.0339687
+Final parallel Result =3.1416 
+
+Threads = 23
+Time for Serial: 0.017012 s
+Time for Parallel: 0.0449164 s
+
+Speed_up = 0.378748
+
+Serial Fraction: f = 2.71483
+24 Processor(s)
+Serial Result =Process 18 has the partial result of Process Process 12 has the partial result of 0.142257
+3.1416
+Process 0 has the partial result of 0.166618
+Process 1 has the partial result of Process 0.1663293 has the partial result of 
+0.164872
+Process 2 has the partial result of 0.165748
+Process Process 4 has the partial result of 5 has the partial result of 0.1636980.162218
+
+Process 13 has the partial result of 0.137779
+Process 14 has the partial result of 0.132786
+Process 15 has the partial result of 0.12722
+Process 16 has the partial result of 0.121
+Process 17 has the partial result of 0.114019
+Process 8 has the partial result of Process 7 has the partial result of 0.158306
+0.1061270.155849
+Process 20 has the partial result of 0.0865812
+Process 9 has the partial result of 0.153038
+Process 21 has the partial result of 0.0739276
+6 has the partial result of 
+0.160424
+Process Process 19 has the partial result of Process 0.0970998
+11 has the partial result of Process 10 has the partial result of Process 0.14985322 has the partial result of 0.1462723 has the partial result of 
+0.0577066
+0.0318768
+
+Final parallel Result =3.1416 
+
+Threads = 24
+Time for Serial: 0.0177495 s
+Time for Parallel: 0.0464169 s
+
+Speed_up = 0.382394
+
+Serial Fraction: f = 2.68533
+25 Processor(s)
+Serial Result =3.1416Process 19 has the partial result of 0.100082
+Process 7 has the partial result of Process 
+Process 0 has the partial result of 0.159957
+Process 1 has the partial result of 0.159701
+Process 2 has the partial result of 0.159187
+Process 3 has the partial result of 0.158413
+Process 4 has the partial result of Process 5 has the partial result of 0.156069
+Process 6 has the partial result of 0.154486
+0.157376
+0.152618Process 20 has the partial result of 0.0915217
+Process 8 has the partial result of 0.150455
+Process 21 has the partial result of 0.0815672
+Process 10 has the partial result of 0.14519
+Process 14 has the partial result of 0.130319
+Process 22 has the partial result of 0.0696135
+
+Process 15 has the partial result of 0.125515
+Process 23 has the partial result of 0.0543148
+Process Process 16 has the partial result of 0.120178
+Process 24 has the partial result of 0.029991
+913 has the partial result of  has the partial result of 0.1479850.134649
+
+Process Process 17 has the partial result of 0.114234
+Process Process 18 has the partial result of 0.107582
+11 has the partial result of 12 has the partial result of 0.1420520.138548
+
+Final parallel Result =3.1416 
+
+Threads = 25
+Time for Serial: 0.0184879 s
+Time for Parallel: 0.0489236 s
+
+Speed_up = 0.377893
+
+Serial Fraction: f = 2.71484
+26 Processor(s)
+Serial Result =Process 7 has the partial result of Process Process 14 has the partial result of 0.127683
+3.1416
+Process 0 has the partial result of 0.153808
+Process Process 1 has the partial result of 3 has the partial result of 0.15358
+0.152436
+Process 2 has the partial result of 0.153124
+Process 4 has the partial result of Process Process 6 has the partial result of 0.1515145 has the partial result of 
+0.148951
+0.150354
+0.147296Process 21 has the partial result of Process 15 has the partial result of 0.1235
+Process 8 has the partial result of 0.145381
+Process 22 has the partial result of Process 16 has the partial result of 0.118876
+Process 10 has the partial result of 0.14073
+Process 23 has the partial result of 0.0657031Process 17 has the partial result of 0.113757
+
+0.0864571
+Process 18 has the partial result of 0.108073
+Process 90.0770186
+Process 19 has the partial result of 0.101727
+ has the partial result of 
+0.143197
+20 has the partial result of Process 0.094588Process 12
+Process 13 has the partial result of Process 11 has the partial result of 24 has the partial result of  has the partial result of Process 25 has the partial result of 0.1348860.05124260.1314670.02828410.137966
+
+
+
+
+Final parallel Result =3.1416 
+
+Threads = 26
+Time for Serial: 0.0192306 s
+Time for Parallel: 0.0500069 s
+
+Speed_up = 0.38456
+
+Serial Fraction: f = 2.66439
+27 Processor(s)
+Serial Result =Process Process 21 has the partial result of 0.089578
+Process 7 has the partial result of 0.142308
+3.1416
+Process 0 has the partial result of 0.148114
+Process 1Process 3 has the partial result of  has the partial result of 0.147911
+0.14689
+Process 2 has the partial result of 0.147503
+Process Process 4 has the partial result of Process 6 has the partial result of 5 has the partial result of 0.146067
+0.143782
+0.145033
+Process 22 has the partial result of 0.0818423
+Process 23 has the partial result of 0.0728772
+Process 8 has the partial result of 0.140605
+Process 24 has the partial result of 0.0621454
+Process 15 has the partial result of 0.121289Process 9 has the partial result of 0.138665
+Process 25 has the partial result of 0.0484495
+Process 16 has the partial result of 0.117249
+Process 10 has the partial result of 0.136476
+Process 26 has the partial result of 0.0267332
+Process 17 has the partial result of 0.112798
+Process 11 has the partial result of 0.134027
+Process 12 has the partial result of 0.131303
+14Process 13 has the partial result of 0.128287
+ has the partial result of 
+0.124958
+Process 18 has the partial result of 0.107885
+Process 19 has the partial result of 0.102443
+Process 20 has the partial result of 0.0963827
+Final parallel Result =3.1416 
+
+Threads = 27
+Time for Serial: 0.0199711 s
+Time for Parallel: 0.0519251 s
+
+Speed_up = 0.384613
+
+Serial Fraction: f = 2.66155
+28 Processor(s)
+Serial Result =3.1416
+Process Process 21 has the partial result of Process 14 has the partial result of 0.122198
+Process 0 has the partial result of 0.142827
+Process Process 2 has the partial result of 3 has the partial result of 0.142279
+0.141729
+Process 1 has the partial result of 0.142644
+Process 4 has the partial result of 0.140992
+Process 5 has the partial result of 0.140066
+Process 6 has the partial result of 0.138946
+Process 8 has the partial result of Process 9 has the partial result of Process 10 has the partial result of 0.1324230.0914888
+0.136107
+Process 22 has the partial result of 0.0849941
+0.134374
+Process 23 has the partial result of 0.0776232
+
+Process 24 has the partial result of 0.0690938
+7 has the partial result of Process 25 has the partial result of 0.0588975
+Process 15 has the partial result of 0.118959
+0.137629
+Process 26 has the partial result of 0.0459012
+Process 16 has the partial result of 0.115404
+Process 11 has the partial result of 0.130242
+Process 27 has the partial result of 0.025319
+Process 17 has the partial result of 0.111502
+Process 12 has the partial result of 0.127821
+Process 18 has the partial result of 0.107216
+Process 13 has the partial result of 0.125145
+Process 19 has the partial result of 0.102498
+Process 20 has the partial result of 0.0972836
+Final parallel Result =3.1416 
+
+Threads = 28
+Time for Serial: 0.0207133 s
+Time for Parallel: 0.0554348 s
+
+Speed_up = 0.373651
+
+Serial Fraction: f = 2.73838
+29 Processor(s)
+Serial Result =Process 15 has the partial result of Process Process 22 has the partial result of 0.0869942
+3.1416
+Process Process Process 1 has the partial result of 2 has the partial result of 0.137411
+Process 3 has the partial result of 0.136916
+0.13774
+0 has the partial result of 0.137904
+Process Process Process 74 has the partial result of 5 has the partial result of  has the partial result of 0.1362530.1354210.133231
+
+
+Process 6 has the partial result of 0.134414
+Process 23 has the partial result of 0.0807875
+0.116565
+Process 9 has the partial result of Process 24 has the partial result of 0.0737542
+Process 16 has the partial result of 0.113417
+Process 10 has the partial result of Process 25 has the partial result of 0.0656266
+Process 18 has the partial result of 0.106205
+Process 11 has the partial result of 0.126614Process 26 has the partial result of 0.0559228
+Process 17 has the partial result of 0.130312
+Process 27 has the partial result of 0.0435686
+0.109973
+0.128564
+Process 28 has the partial result of 0.0240253
+Process 
+Process 8Process 21 has the partial result of  has the partial result of 19 has the partial result of 0.13186520 has the partial result of 
+0.102077Process 0.0975419
+Process 0.0925413
+Process 14 has the partial result of 
+12 has the partial result of 13 has the partial result of 0.1244510.1220650.119441
+
+
+Final parallel Result =3.1416 
+
+Threads = 29
+Time for Serial: 0.0214519 s
+Time for Parallel: 0.0579709 s
+
+Speed_up = 0.370046
+
+Serial Fraction: f = 2.76316
+30 Processor(s)
+Serial Result =Process 16 has the partial result of Process 8 has the partial result of Process 23 has the partial result of 0.0828549
+3.1416
+Process 0 has the partial result of 0.133309
+Process Process 1 has the partial result of 2 has the partial result of 0.13316
+0.132863
+Process 3 has the partial result of 0.132417
+Process Process Process 7 has the partial result of 4 has the partial result of Process 5 has the partial result of 6 has the partial result of 0.130160.131818
+
+0.129093
+0.131067
+0.111345
+Process 18 has the partial result of 0.104951
+Process 19 has the partial result of 0.101311
+Process 17Process 10 has the partial result of 0.124893 has the partial result of Process 24 has the partial result of 0.0769162
+0.127863
+0.108286Process 25 has the partial result of 0.0701958
+Process 9 has the partial result of 0.126464
+
+Process 26 has the partial result of 0.0624398
+
+Process Process 27 has the partial result of 0.0531903
+Process 11 has the partial result of 0.12314
+Process Process 28 has the partial result of 0.0414271
+Process Process 22 has the partial result of Process 29 has the partial result of 0.022838
+Process 20 has the partial result of 12 has the partial result of 21 has the partial result of 14 has the partial result of 0.0973319Process 15 has the partial result of 0.09297090.12120.08817070.116716
+0.114149
+
+
+
+
+Process 13 has the partial result of 0.119062
+Final parallel Result =3.1416 
+
+Threads = 30
+Time for Serial: 0.0221891 s
+Time for Parallel: 0.0572884 s
+
+Speed_up = 0.387323
+
+Serial Fraction: f = 2.63637
+31 Processor(s)
+Serial Result =Process 16 has the partial result of Process 24 has the partial result of Process 8 has the partial result of 3.1416
+Process Process Process 2 has the partial result of 1 has the partial result of 0.128876
+0.128606
+0 has the partial result of 0.12901Process 
+3 has the partial result of 0.128202
+Process Process 5 has the partial result of Process 6 has the partial result of 0.126158Process 7 has the partial result of 0.1251930.126979
+
+
+4 has the partial result of 0.12766
+Process 10 has the partial result of 0.1213990.124081
+Process 9 has the partial result of 0.122818
+
+Process 11 has the partial result of 0.119818
+Process 0.109227
+Process 25 has the partial result of Process Process 17 has the partial result of 0.106496
+Process Process 15 has the partial result of Process 18 has the partial result of 0.103526
+Process 27 has the partial result of 0.059502613 has the partial result of Process 19 has the partial result of 0.100295
+0.0790329
+14 has the partial result of Process 0.0733439
+0.116147Process 
+0.114039Process 2326 has the partial result of 0.111737
+21 has the partial result of 0.0669143
+
+22 has the partial result of Process 
+ has the partial result of Process Process 0.0929414Process 30 has the partial result of 120.0887442
+28 has the partial result of  has the partial result of 0.0841323
+29 has the partial result of 0.11807
+0.0506732
+Process 0.0394555200.0217455 has the partial result of 
+0.0967779
+
+
+Final parallel Result =3.1416 
+
+Threads = 31
+Time for Serial: 0.0229271 s
+Time for Parallel: 0.0598239 s
+
+Speed_up = 0.383243
+
+Serial Fraction: f = 2.66296
+32 Processor(s)
+Serial Result =Process 16 has the partial result of Process 24 has the partial result of Process 8 has the partial result of 3.1416
+Process 0 has the partial result of 0.12498
+Process 1 has the partial result of 0.124858
+Process 3 has the partial result of 0.124245
+Process 2 has the partial result of 0.124613
+Process 4 has the partial result of Process 6Process 7 has the partial result of 0.123753
+ has the partial result of 0.122389
+0.121513
+Process 5 has the partial result of 0.123135
+0.08039210.107094
+
+Process 0.120504
+Process 17 has the partial result of Process 27 has the partial result of 0.104643
+9 has the partial result of Process Process Process 100.0638805
+19 has the partial result of 0.119359
+25 has the partial result of 0.0991003
+ has the partial result of 0.1180730.0754953Process 
+
+18Process 11 has the partial result of Process  has the partial result of 0.116643
+260.101984Process  has the partial result of 
+Process 0.0700394Process Process 
+Process 13 has the partial result of Process Process 14 has the partial result of 28 has the partial result of Process 15 has the partial result of Process 20 has the partial result of 0.113325Process 21 has the partial result of 0.111424Process 31 has the partial result of 22 has the partial result of 0.10935
+0.056788523 has the partial result of 
+29 has the partial result of 0.0959707
+
+30 has the partial result of 0.0925708
+Process 
+0.0888694
+120.0483485
+0.084827
+ has the partial result of 0.0376354
+0.1150620.0207373
+
+Final parallel Result =3.1416 
+
+Threads = 32
+Time for Serial: 0.0236708 s
+Time for Parallel: 0.0599696 s
+
+Speed_up = 0.394713
+
+Serial Fraction: f = 2.58295
+All Done!

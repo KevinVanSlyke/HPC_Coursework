@@ -1,0 +1,35 @@
+#!/bin/sh
+#SBATCH --partition=general-compute
+#SBATCH --time=00:60:00
+#SBATCH --nodes=2
+#SBATCH --ntasks-per-node=8
+#SBATCH --mem=24000
+# Memory per node specification is in MB. It is optional. 
+# The default limit is 3GB per core.
+#SBATCH --job-name="hw1p3"
+#SBATCH --output=hw1p3mkldata.out
+#SBATCH --mail-user=kgvansly@buffalo.edu
+#SBATCH --mail-type=ALL
+#SBATCH --requeue
+#Specifies that the job will be requeued after a node failure.
+#The default is that the job will not be requeued.
+
+echo "SLURM_JOBID="$SLURM_JOBID
+echo "SLURM_JOB_NODELIST"=$SLURM_JOB_NODELIST
+echo "SLURM_NNODES"=$SLURM_NNODES
+echo "SLURMTMPDIR="$SLURMTMPDIR
+
+cd $SLURM_SUBMIT_DIR
+echo "working directory = "$SLURM_SUBMIT_DIR
+
+module load intel/13.1
+module load mkl
+module list
+ulimit -s unlimited
+#
+
+echo "Launch hw1p3mkl with srun"
+srun ./hw1p3mkl
+
+#
+echo "All Done!"

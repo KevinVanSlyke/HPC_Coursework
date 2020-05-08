@@ -1,0 +1,386 @@
+SLURM_JOBID=4684019
+SLURM_JOB_NODELIST=cpn-k14-29-02,cpn-k14-30-02
+SLURM_NNODES=2
+SLURMTMPDIR=/scratch/4684019
+Working directory = /gpfs/user/kgvansly/Homework3/Problem2
+
+Currently Loaded Modules:
+  1) lmod/5.8   2) StdEnv   3) intel/15.0   4) intel-mpi/5.0.2
+
+
+
+mpiicpc -g -Wall -o hw3p2 hw3p2.cpp ../timer.c
+NPROCS=16
+Launch hw3p2 with srun
+Doing Problem 2 with:
+1 Processor(s)
+srun: Warning: can't run 1 processes on 2 nodes, setting nnodes to 1
+Num threads = 1
+Width of area element = 0.015625
+Height of area element = 0.015625
+Partial area found by process 0 is 1.51123
+Even rank 0 (receiver) world id == 0
+Even group rank 0 (receiver) world id == 0
+Partial area found by even processes is 1.51123
+Parallel calculation time: 5.43312s
+2 Processor(s)
+Num threads = 2
+Width of area element = 0.015625
+Height of area element = 0.015625
+Partial area found by process 1 is 0.755615
+Odd rank 0 (sender) world id == 1
+Partial area found by process 0 is 0.755615
+Even rank 0 (receiver) world id == 0
+Even group rank 0 (receiver) world id == 0
+Partial area found by even processes is 0.755615
+Receiver world rank is 0
+Passed partial area found by odd proc is 0.755615
+Full Area of Mandelbrot set (Parallel): 1.51123
+Odd group rank 0 (sender) world id == 1
+Partial area found by odd processes is 0.755615
+Sender world rank is 1
+Parallel calculation time: 3.73948s
+3 Processor(s)
+Num threads = 3
+Width of area element = 0.015625
+Height of area element = 0.015625
+Partial area found by process 2 is 0.029541
+Partial area found by process 0 is 0.029541
+Even rank 0 (receiver) world id == 0
+Partial area found by process 1 is 1.45215
+Odd rank 0 (sender) world id == 1
+Even group rank 0 (receiver) world id == 0
+Partial area found by even processes is 0.059082
+Receiver world rank is 0
+Odd group rank 0 (sender) world id == 1
+Partial area found by odd processes is 1.45215
+Sender world rank is 1
+Passed partial area found by odd proc is 1.45215
+Full Area of Mandelbrot set (Parallel): 1.51123
+Parallel calculation time: 6.21428s
+4 Processor(s)
+Num threads = 4
+Width of area element = 0.015625
+Height of area element = 0.015625
+Partial area found by process 3 is 0Partial area found by process 0 is 0
+Even rank 0 (receiver) world id == 0
+
+Partial area found by process 1 is 0.755615
+Odd rank 0 (sender) world id == 1
+Partial area found by process 2 is 0.755615
+Even group rank 0 (receiver) world id == 0
+Partial area found by even processes is 0.755615
+Receiver world rank is 0
+Passed partial area found by odd proc is 0.755615
+Full Area of Mandelbrot set (Parallel): 1.51123
+Odd group rank 0 (sender) world id == 1
+Partial area found by odd processes is 0.755615
+Sender world rank is 1
+Parallel calculation time: 4.73157s
+5 Processor(s)
+Num threads = 5Partial area found by process 4 is 0
+
+Width of area element = 0.015625
+Height of area element = 0.015625
+Partial area found by process 0 is 0
+Even rank 0 (receiver) world id == 0
+Partial area found by process 1 is 0.213135
+Odd rank 0 (sender) world id == 1
+Partial area found by process 3 is 0.209717
+Partial area found by process 2 is 1.08838
+Even group rank 0 (receiver) world id == 0
+Partial area found by even processes is 1.08838
+Receiver world rank is 0
+Passed partial area found by odd proc is 0.422852
+Full Area of Mandelbrot set (Parallel): 1.51123
+Odd group rank 0 (sender) world id == 1
+Partial area found by odd processes is 0.422852
+Sender world rank is 1
+Parallel calculation time: 4.90369s
+6 Processor(s)
+Num threads = 6
+Width of area element = Partial area found by process 5 is 0
+0.015625
+Height of area element = 0.015625
+Partial area found by process 0 is 0
+Even rank 0 (receiver) world id == 0
+Partial area found by process 4 is 0.029541
+Partial area found by process 1 is 0.029541
+Odd rank 0 (sender) world id == 1
+Partial area found by process 3 is 0.726074
+Partial area found by process 2 is 0.726074
+Even group rank 0 (receiver) world id == 0
+Partial area found by even processes is 0.755615
+Receiver world rank is 0
+Passed partial area found by odd proc is 0.755615
+Odd group rank 0 (sender) world id == 1
+Partial area found by odd processes is 0.755615
+Sender world rank is 1
+Full Area of Mandelbrot set (Parallel): 1.51123
+Parallel calculation time: 3.62477s
+7 Processor(s)
+Num threads = 7
+Width of area element = Partial area found by process 6 is 0.015625
+Height of area element = 0.015625
+Partial area found by process 0 is 0
+Even rank 0 (receiver) world id == 0
+Partial area found by process 1 is 0.000732422
+Odd rank 0 (sender) world id == 1
+0
+Partial area found by process 5 is 0.000732422
+Partial area found by process 4 is 0.337158
+Partial area found by process 2 is 0.337158
+Partial area found by process 3 is 0.835449
+Even group rank 0 (receiver) world id == 0
+Partial area found by even processes is 0.674316
+Receiver world rank is 0
+Odd group rank 0 (sender) world id == 1
+Partial area found by odd processes is 0.836914
+Sender world rank is 1
+Passed partial area found by odd proc is 0.836914
+Full Area of Mandelbrot set (Parallel): 1.51123
+Parallel calculation time: 4.00574s
+8 Processor(s)
+Num threads = 8
+Width of area element = 0.015625
+Height of area element = 0.015625
+Partial area found by process 7 is Partial area found by process 0 is 0
+Even rank 0 (receiver) world id == 0
+Partial area found by process 1 is 0
+Odd rank 0 (sender) world id == 1
+0
+Partial area found by process 6 is 0
+Partial area found by process 2 is 0.126465
+Partial area found by process 5 is 0.126465
+Partial area found by process 3 is 0.62915
+Partial area found by process 4 is 0.62915
+Even group rank 0 (receiver) world id == 0
+Partial area found by even processes is 0.755615
+Receiver world rank is 0
+Passed partial area found by odd proc is 0.755615
+Full Area of Mandelbrot set (Parallel): 1.51123
+Odd group rank 0 (sender) world id == 1
+Partial area found by odd processes is 0.755615
+Sender world rank is 1
+Parallel calculation time: 3.26282s
+9 Processor(s)
+Num threads = 9Partial area found by process 8 is 0
+
+Width of area element = 0.015625
+Height of area element = 0.015625
+Partial area found by process 0 is 0
+Even rank 0 (receiver) world id == 0
+Partial area found by process 1 is 0
+Odd rank 0 (sender) world id == 1
+Partial area found by process 7 is 0
+Partial area found by process 6 is 0.029541
+Partial area found by process 2 is 0.029541
+Partial area found by process 5 is 0.38623
+Partial area found by process 3 is 0.38623
+Partial area found by process 4 is 0.679688
+Even group rank 0 (receiver) world id == 0
+Partial area found by even processes is 0.73877
+Receiver world rank is 0
+Passed partial area found by odd proc is 0.772461
+Full Area of Mandelbrot set (Parallel): 1.51123
+Odd group rank 0 (sender) world id == 1
+Partial area found by odd processes is 0.772461
+Sender world rank is 1
+Parallel calculation time: 3.45174s
+10 Processor(s)
+Num threads = 10Partial area found by process 9 is 
+Width of area element = 0.015625
+Height of area element = 0.015625
+Partial area found by process 0 is 0
+Even rank 0 (receiver) world id == 0
+Partial area found by process 1 is 0
+Odd rank 0 (sender) world id == 1
+Partial area found by process 2 is 0.00683594
+0
+Partial area found by process 8 is 0
+Partial area found by process 7 is 0.00683594
+Partial area found by process 6 is 0.202881
+Partial area found by process 3 is 0.205811
+Partial area found by process 4 is 0.542969
+Partial area found by process 5 is 0.545898
+Even group rank 0 (receiver) world id == 0
+Partial area found by even processes is 0.752686
+Receiver world rank is 0
+Passed partial area found by odd proc is 0.758545
+Full Area of Mandelbrot set (Parallel): 1.51123
+Odd group rank 0 (sender) world id == 1
+Partial area found by odd processes is 0.758545
+Sender world rank is 1
+Parallel calculation time: 2.96203s
+11 Processor(s)
+Num threads = 11Partial area found by process 10 is 0
+
+Width of area element = 0.015625
+Height of area element = 0.015625
+Partial area found by process 0 is 0
+Even rank 0 (receiver) world id == 0
+Partial area found by process 1 is 0
+Odd rank 0 (sender) world id == 1
+Partial area found by process 2 is 0
+Partial area found by process 9 is 0
+Partial area found by process 8 is 0
+Partial area found by process 7 is 0.0878906
+Partial area found by process 3 is 0.0878906
+Partial area found by process 6 is 0.371826
+Partial area found by process 4 is 0.379395
+Partial area found by process 5 is 0.584229
+Even group rank 0 (receiver) world id == Odd group rank 0 (sender) world id == 1
+Partial area found by odd processes is 0.76001
+0
+Partial area found by even processes is 0.751221
+Receiver world rank is Sender world rank is 1
+0
+Passed partial area found by odd proc is 0.76001
+Full Area of Mandelbrot set (Parallel): 1.51123
+Parallel calculation time: 4.13495s
+12 Processor(s)
+Num threads = 12Partial area found by process 
+Width of area element = 0.015625
+Height of area element = 0.015625
+Partial area found by process 0 is 0
+Even rank 0 (receiver) world id == 0
+Partial area found by process 1 is 0
+Odd rank 0 (sender) world id == 1
+Partial area found by process 2 is 0
+11 is 0
+Partial area found by process 9 is 0
+Partial area found by process 10 is 0
+Partial area found by process 3 is 0.029541
+Partial area found by process 8 is 0.029541
+Partial area found by process 4 is 0.258789
+Partial area found by process 7 is 0.258789
+Partial area found by process 5 is 0.467285
+Partial area found by process 6 is 0.467285
+Even group rank 0 (receiver) world id == Odd group rank 0 (sender) world id == 1
+Partial area found by odd processes is 0.755615
+0
+Partial area found by even processes is 0.755615
+Receiver world rank is 0
+Sender world rank is 1
+Passed partial area found by odd proc is 0.755615
+Full Area of Mandelbrot set (Parallel): 1.51123
+Parallel calculation time: 2.68663s
+13 Processor(s)
+Num threads = 13
+Partial area found by process 12 is Width of area element = 0.015625
+Height of area element = 0.015625
+Partial area found by process 0 is 0
+Even rank 0 (receiver) world id == 0
+Partial area found by process 1 is 0
+Odd rank 0 (sender) world id == 1
+Partial area found by process 2 is 0
+0
+Partial area found by process 11 is 0
+Partial area found by process 10 is 0
+Partial area found by process 9 is 0.0126953
+Partial area found by process 3 is 0.0126953
+Partial area found by process 8 is 0.142334
+Partial area found by process 4 is 0.145996
+Partial area found by process 5 is 0.347412
+Partial area found by process 7 is 0.351074
+Partial area found by process 6 is 0.499023
+Even group rank 0 (receiver) world id == Odd group rank 0 (sender) world id == 1
+Partial area found by odd processes is 0.723877
+0
+Partial area found by even processes is 0.787354
+Receiver world rank is 0
+Sender world rank is 1
+Passed partial area found by odd proc is 0.723877
+Full Area of Mandelbrot set (Parallel): 1.51123
+Parallel calculation time: 2.8066s
+14 Processor(s)
+Num threads = 14
+Partial area found by process Width of area element = 0.015625
+Height of area element = 0.015625
+Partial area found by process 0 is 0
+Even rank 0 (receiver) world id == 0
+Partial area found by process 1 is Partial area found by process 0
+Odd rank 0 (sender) world id == 1
+2 is 0
+Partial area found by process 3 is 0.000732422
+12Partial area found by process 11 is 0
+ is 0
+Partial area found by process 13 is 0
+Partial area found by process 10 is 0.000732422
+Partial area found by process 9 is 0.0634766
+Partial area found by process 4 is 0.065918
+Partial area found by process 5 is 0.27124
+Partial area found by process 8 is 0.273682
+Partial area found by process 7 is 0.417725
+Partial area found by process 6 is 0.417725
+Even group rank 0 (receiver) world id == Odd group rank 0 (sender) world id == 1
+Partial area found by odd processes is 0.753174
+0
+Partial area found by even processes is 0.758057
+Receiver world rank is 0
+Sender world rank is 1
+Passed partial area found by odd proc is 0.753174
+Full Area of Mandelbrot set (Parallel): 1.51123
+Parallel calculation time: 2.52678s
+15 Processor(s)
+Num threads = 15
+Partial area found by process 13 is 0Width of area element = 0.015625
+Height of area element = 0.015625
+Partial area found by process 0 is 0
+Even rank 0 (receiver) world id == 0
+Partial area found by process Partial area found by process 1 is 0
+Odd rank 0 (sender) world id == 1
+2 is 0
+Partial area found by process 3 is 0
+Partial area found by process 12 is 
+0
+Partial area found by process 14 is 0
+Partial area found by process 11 is 0
+Partial area found by process 10 is 0.029541
+Partial area found by process 4 is 0.029541
+Partial area found by process 9 is 0.180176
+Partial area found by process 5 is 0.183594
+Partial area found by process 8 is 0.324219
+Partial area found by process 6 is 0.333252
+Partial area found by process 7 is 0.430908
+Even group rank 0 (receiver) world id == Odd group rank 0 (sender) world id == 1
+Partial area found by odd processes is 0.794678
+0
+Partial area found by even processes is 0.716553
+Receiver world rank is 0
+Sender world rank is 1
+Passed partial area found by odd proc is 0.794678
+Full Area of Mandelbrot set (Parallel): 1.51123
+Parallel calculation time: 2.57715s
+16 Processor(s)
+Num threads = 16
+Partial area found by process 13 is Width of area element = 0.015625
+Height of area element = 0.015625
+Partial area found by process 0 is 0
+Even rank 0 (receiver) world id == 0
+Partial area found by process Partial area found by process 1 is 2 is 0
+0
+Odd rank 0 (sender) world id == 1
+Partial area found by process 3 is 0
+0
+Partial area found by process 15 is Partial area found by process 0
+12 is 0
+Partial area found by process 14 is 0
+Partial area found by process 11 is 0.015625
+Partial area found by process 4 is 0.015625
+Partial area found by process 10 is 0.11084
+Partial area found by process 5 is 0.11084
+Partial area found by process 9 is 0.24707
+Partial area found by process 6 is 0.24707
+Partial area found by process 8 is 0.38208
+Partial area found by process 7 is 0.38208
+Even group rank 0 (receiver) world id == 0
+Partial area found by even processes is 0.755615
+Odd group rank 0 (sender) world id == 1
+Partial area found by odd processes is 0.755615
+Receiver world rank is 0
+Sender world rank is 1
+Passed partial area found by odd proc is 0.755615
+Full Area of Mandelbrot set (Parallel): 1.51123
+Parallel calculation time: 3.40409s
+All Done!

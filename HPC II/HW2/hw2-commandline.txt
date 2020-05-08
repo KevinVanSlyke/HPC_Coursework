@@ -1,0 +1,21 @@
+SLURM_JOBID=4998037
+SLURM_JOB_NODELIST=cpn-f16-[07,36]
+SLURM_NNODES=2
+SLURMTMPDIR=/scratch/4998037
+Working directory = /user/kgvansly/HPC/II-HW2
+
+Currently Loaded Modules:
+  1) lmod/6.0.1   3) ddt/5.1-43967   5) intel-mpi/5.0.2
+  2) StdEnv       4) intel/15.0
+
+make: `HW2' is up to date.
+NPROCS=4
+Launch hw2 with srun
+Doing HW 2 with n = 4
+Original Row 0: 1 2 3 4
+Original Row 1: 5 6 7 8
+New Row 0: 1 2 3 4
+
+Total runtime is: 0.000130824 seconds for n = 4 matrix transpose.
+New Row 1: 1 2 3 4
+All Done!

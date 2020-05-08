@@ -1,0 +1,23 @@
+SLURM_JOBID=4683988
+SLURM_JOB_NODELIST=cpn-k14-07-01,cpn-k14-28-02
+SLURM_NNODES=2
+SLURMTMPDIR=/scratch/4683988
+Working directory = /gpfs/user/kgvansly/Homework3/Problem2
+
+Currently Loaded Modules:
+  1) lmod/5.8   2) StdEnv   3) intel/15.0   4) intel-mpi/5.0.2
+
+
+
+mpiicpc -g -Wall -o hw3p2a hw3p2a.cpp ../timer.c
+NPROCS=16
+Launch hw3p2 with srun
+Doing Problem 2 with:
+srun: Warning: can't run 1 processes on 2 nodes, setting nnodes to 1
+Num threads = 1
+Width of area element = 0.015625
+Height of area element = 0.015625
+Partial area found by process 0 is 1.51123
+Total area found by all processes is 1.51123
+Parallel calculation time: 5.43246s
+All Done!
